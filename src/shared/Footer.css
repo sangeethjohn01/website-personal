@@ -1,0 +1,50 @@
+.main-footer-div {
+    height: 50px;
+    border-top: 1px solid darkgray;
+    margin: 0;
+}
+.copyright {
+    text-align: center;
+}
+.social-icons {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    margin-right: 10px;
+}
+img {
+    cursor: pointer;
+}
+.social-icons img{
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.fb:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(58,89,152,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(58,89,152,1);
+    box-shadow: 0px 0px 5px 0px rgba(58,89,152,1);
+}
+.insta:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(224,21,91,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(224,21,91,1);
+    box-shadow: 0px 0px 5px 0px rgba(224,21,91,1);
+}
+.linked:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(1,122,184,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(1,122,184,1);
+    box-shadow: 0px 0px 5px 0px rgba(1,122,184,1);
+}
+.floatChat {
+    position: fixed;
+    bottom: 90px;
+    height: 50px;
+    right: 30px;
+}
+
+.floatChat:hover {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(57,155,245,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(57,155,245,1);
+    box-shadow: 0px 0px 10px 0px rgba(57,155,245,1);
+}
