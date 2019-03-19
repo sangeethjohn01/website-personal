@@ -1,0 +1,19 @@
+.mtmbs {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.mtmbs input {
+    border: none;
+    border-bottom: 1px solid #1e90ff;
+    text-align: center;
+    font-size: 15px;
+    color: #696969;
+    width: 70%;
+}
+.mtmbs input::placeholder {
+    text-align: center;
+    color: #6969699c;
+}
+.mtmbs input:focus {
+    outline: none;
+}

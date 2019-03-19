@@ -1,21 +1,21 @@
-.loginMain {
+.signinMain {
     height: 100vh;
     display: table;
     margin: 0 auto;
 }
-.loginMainDiv {
+.signinMainDiv {
     width: 400px;
     height: auto;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
 }
-.loginForm {
+.signinForm {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(169,169,169,1);
     -moz-box-shadow: 0px 0px 10px 0px rgba(169,169,169,1);
     box-shadow: 0px 0px 10px 0px rgba(169,169,169,1);
 }
-.mtmb {
+.mtmbs {
     margin-top: 18px;
     margin-bottom: 10px;
 }
@@ -23,25 +23,6 @@
     font-size: 40px;
     padding-top: 10px;
     color: #1e90ff;
-}
-.mtmb input {
-    border: none;
-    border-bottom: 1px solid #1e90ff;
-    text-align: center;
-    font-size: 15px;
-    color: #696969;
-    width: 70%;
-}
-.mtmb input::placeholder {
-    text-align: center;
-    opacity: 0;
-    color: #6969699c;
-}
-.mtmb input:focus::placeholder {
-    opacity: 1;
-  }
-.mtmb input:focus {
-    outline: none;
 }
 .btn_Model {
     padding: 10px 15px 10px 15px;
@@ -59,20 +40,6 @@
 }
 .btn_Model:focus {
     outline: none;
-}
-.floating-label {
-    position: absolute;
-    pointer-events: none;
-    margin-left: -10.3rem;
-    color: #1e90ff;
-    transition: 0.2s ease all;
-}
-.mtmb input:focus ~ .floating-label, 
-.mtmb input:not(:focus):valid ~ .floating-label{
-    font-size: 15px;
-    opacity: 1;
-    margin-left: -10.3rem;
-    margin-top: -15px;
 }
 .LinkTo:hover {
     text-decoration: underline;

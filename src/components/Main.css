@@ -1,3 +1,25 @@
 .main-main-div {
     flex: 1 1 0;
 }
+
+.List {
+    border: 1px solid #d9dddd;
+    margin: auto;
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  
+  .ListItemEven,
+  .ListItemOdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ListItemEven {
+    background-color: #f8f8f0;
+  }
+  .social-icons img{
+    height: 20px;
+    width: 20px;
+}
